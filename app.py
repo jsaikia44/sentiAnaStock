@@ -15,7 +15,7 @@ import pandas as pd
 import streamlit as st
 import yfinance as yf
 
-import detailed_news_analysis as dna
+import detailed_news_analysis_console as dna
 from most_talked_stocks import NIFTY50
 
 st.set_page_config(page_title="NSE News Analysis", page_icon="📰", layout="wide")
